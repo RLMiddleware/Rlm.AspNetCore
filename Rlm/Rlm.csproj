@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>preview</LangVersion>
+        <RootNamespace>Rlm</RootNamespace>
+        
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.0.1</Version>
+        <PackageId>Rlm.AspNetCore</PackageId>
+        <Title>RLM - Request Logging Middleware</Title>
+        <Authors>Hinrich Wesche</Authors>
+        <Description>RLM - Request Logging Middleware</Description>
+        <Copyright>https://github.com/MxDual</Copyright>
+        <PackageProjectUrl>https://github.com/MxDual/rlm</PackageProjectUrl>
+        <RepositoryUrl>git@github.com:MxDual/rlm.git</RepositoryUrl>
+        <PackageTags>RequestLogging, Middleware, Logging, Api, RestApi</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+        <PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
+        <PackageReference Include="Serilog.Extensions.Logging.File" Version="3.0.0" />
+        <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    </ItemGroup>
+</Project>

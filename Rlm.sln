@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rlm", "Rlm\Rlm.csproj", "{CC6A0473-F210-4058-A386-0587F4024C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RlmExample", "RlmExample\RlmExample.csproj", "{C3EB77CA-3AEB-4346-B77A-64F4F4AFA8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RlmTests", "RlmTests\RlmTests.csproj", "{1F59146F-9B53-484C-B4CF-8921C0578ECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC6A0473-F210-4058-A386-0587F4024C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6A0473-F210-4058-A386-0587F4024C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6A0473-F210-4058-A386-0587F4024C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6A0473-F210-4058-A386-0587F4024C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3EB77CA-3AEB-4346-B77A-64F4F4AFA8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EB77CA-3AEB-4346-B77A-64F4F4AFA8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EB77CA-3AEB-4346-B77A-64F4F4AFA8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EB77CA-3AEB-4346-B77A-64F4F4AFA8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F59146F-9B53-484C-B4CF-8921C0578ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F59146F-9B53-484C-B4CF-8921C0578ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F59146F-9B53-484C-B4CF-8921C0578ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F59146F-9B53-484C-B4CF-8921C0578ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
