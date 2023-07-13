@@ -8,37 +8,37 @@ This package is currently <strong>UNDER DEVELOPMENT !</strong>
 
 ## Features
 - **Wildcard Support**:
-  The Request Logging Middleware offers wildcard support, allowing you to specify patterns for request 
-  paths or endpoints. With this feature, you can capture and log requests that match a specific pattern 
+  The Request Logging Middleware offers wildcard support, allowing you to specify patterns for request
+  paths or endpoints. With this feature, you can capture and log requests that match a specific pattern
   or contain certain keywords. It provides flexibility in logging only the requests you're interested in  
   while excluding others.
 
 - **Api-Path Exclusions**:
-  Sometimes, you may have sensitive endpoints or paths that you don't want to log. 
-  The Request Logging Middleware enables you to define exclusion rules for specific API paths. 
-  By excluding these paths from logging, you can ensure that sensitive information remains secure 
+  Sometimes, you may have sensitive endpoints or paths that you don't want to log.
+  The Request Logging Middleware enables you to define exclusion rules for specific API paths.
+  By excluding these paths from logging, you can ensure that sensitive information remains secure
   and confidential.
 
 - **Obscure Credentials**:
-  When logging requests, it's crucial to protect sensitive information like credentials or personally 
-  identifiable information (PII). The Request Logging Middleware includes a built-in mechanism 
-  to obscure credentials in the logs. This feature ensures that sensitive data is not exposed in the 
+  When logging requests, it's crucial to protect sensitive information like credentials or personally
+  identifiable information (PII). The Request Logging Middleware includes a built-in mechanism
+  to obscure credentials in the logs. This feature ensures that sensitive data is not exposed in the
   log entries, maintaining the security and privacy of your users' information.
 
 - **Content-Type Whitelist**:
-  The Request Logging Middleware allows you to define a whitelist of content types for logging purposes. 
-  By specifying a content type whitelist, you can limit the logging of requests and responses 
-  to only those with specific content types. This feature provides fine-grained control over 
+  The Request Logging Middleware allows you to define a whitelist of content types for logging purposes.
+  By specifying a content type whitelist, you can limit the logging of requests and responses
+  to only those with specific content types. This feature provides fine-grained control over
   what types of content are logged, enhancing the efficiency and relevancy of your log entries.
 
 - **Request & Response MaxLength**:
-  To avoid excessively long log entries, the Request Logging Middleware offers the ability to set maximum 
-  lengths for both request and response bodies. This feature ensures that only a specified portion of the 
+  To avoid excessively long log entries, the Request Logging Middleware offers the ability to set maximum
+  lengths for both request and response bodies. This feature ensures that only a specified portion of the
   request and response payloads is included in the logs, making them more manageable and readable.
 
 - **Custom Property Logging**:
-  The Request Logging Middleware supports custom property logging, allowing you to include additional 
-  contextual information in your log entries. You can add custom properties to log alongside the default 
+  The Request Logging Middleware supports custom property logging, allowing you to include additional
+  contextual information in your log entries. You can add custom properties to log alongside the default
   request and response information.
 
 - **Integration with Serilog**:
